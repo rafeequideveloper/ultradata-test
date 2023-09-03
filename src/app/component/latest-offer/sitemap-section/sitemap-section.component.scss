@@ -1,0 +1,14 @@
+@import "../../../scss/variable.scss";
+.sitemap-section {
+    color: #c5c5c5;
+
+    .sitemap-link {
+        list-style: none;
+        font-size: $myFontSize13;
+    }
+
+    p {
+        font-size: $myFontSize13;
+        font-weight: $fontWeight500;
+    }
+}

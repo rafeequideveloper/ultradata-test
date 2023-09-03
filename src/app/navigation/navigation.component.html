@@ -1,0 +1,16 @@
+<div class="navbar">
+    <div class="logo d-block d-sm-none">My App</div>
+    <div class="menu-toggle" (click)="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul [ngClass]="{ 'active': isMenuOpen }">
+      <li><a href="javascript: void(0)" >Apply Online</a></li>
+      <li><a href="javascript: void(0)">Locate us</a></li>
+      <li><a href="javascript: void(0)">Calculators</a></li>
+      <li><a href="javascript: void(0)">Rate & Fees</a></li>
+      <li><a href="javascript: void(0)">Insurance</a></li>
+      <li><a href="javascript: void(0)">Contact us</a></li>
+    </ul>
+  </div>

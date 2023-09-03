@@ -1,0 +1,33 @@
+@import "../../../scss/variable.scss";
+
+.banner-section {
+    color: #adadad;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    .head-1 {
+        font-size: 38px;
+    }
+
+    .head-2 {
+        font-size: 32px;
+        font-weight: normal;
+    }
+
+    .head-3 {
+        font-size: 28px;
+        font-weight: normal;
+    }
+
+    .apply-now-btn {
+        padding: 10px 30px;
+        font-size: 18px;
+        border: 3px solid #808080;
+        color: #808080;
+        border-radius: $borderRadius0;
+    }
+
+    .apply-now-btn:hover {
+        @include apply-now-btn-hover;
+    }
+}

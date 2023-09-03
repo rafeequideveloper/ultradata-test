@@ -1,0 +1,55 @@
+@import "../../scss/variable.scss";
+
+.footer-section {
+    background: #ebebeb;
+    font-size: $myFontSize13;
+    color: #808080;
+
+    .icon-section {
+        .bi {
+            padding-right: 15px;
+            font-size: 25px;
+            color: black;
+        }
+    }
+
+    .footer-menu {
+        list-style: none;
+        li {
+            display: inline;
+            font-weight: $fontWeight500;
+        }
+    }
+
+    .form-control {
+        border: 2px solid #adadad;
+        border-radius: $borderRadius0;
+    }
+
+    .apply-now-btn {
+        padding: 5px 10px;
+        font-size: 14px;
+        border: 2px solid #808080;
+        color: #000;
+        border-radius: $borderRadius0;
+        font-weight: $fontWeight500;
+    }
+
+    .apply-now-btn:hover {
+        @include apply-now-btn-hover;
+    }
+
+    .get-in-touch {
+        font-size: 18px;
+        color: #000;
+        font-weight: $fontWeight500;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .frm-btn-section {
+        width: 100%;
+    }
+}

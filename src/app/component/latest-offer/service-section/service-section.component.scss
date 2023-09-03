@@ -1,0 +1,14 @@
+@import "../../../scss/variable.scss";
+.service-section {
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    .bi {
+        font-size: 35px;
+        color: #444444;
+    }
+    p {
+        font-size: $myFontSize13;
+        font-weight: bold;
+        color: #808080;
+    }
+}

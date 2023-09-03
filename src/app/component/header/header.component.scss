@@ -1,0 +1,35 @@
+@import "../../scss/variable.scss";
+.header-section {
+    border-bottom: 2px solid #999999;
+}
+.header-1 {
+    background: #494949;
+    a {
+        color: #9f9f9f;
+        font-size: $myFontSize13;
+    }
+}
+
+.internet-banking {
+    background: #252525;
+    a {
+        color: #acacac;
+    }
+}
+
+.eStatement-login {
+    background: #363636;
+    a {
+        color: #adadad;
+    }
+}
+
+.header-2 {
+    background: #f6f6f6;
+    a {
+        color: #494949;
+        font-size: $myFontSize13;
+    }
+}
+
+

@@ -1,0 +1,78 @@
+@import "../../../scss/variable.scss";
+
+.community-section {
+    color: #808080;
+    border: 2px solid #adadad;
+    padding: 50px 25px;
+    font-size: 16px;
+
+    .community-content {
+        font-size: $myFontSize13;
+    }
+}
+
+.community-support {
+    color: #808080;
+    border: 2px solid #adadad;
+    padding: 50px 0px;
+    font-size: 16px;
+    //width: 48.3%;
+
+    .apply-now-btn {
+        padding: 5px 10px;
+        font-size: 14px;
+        border: 2px solid #adadad;
+        border-radius: $borderRadius0;
+    }
+}
+
+@media (min-width: 768px) {
+    .community-support {
+        width: 48.3%;
+    }
+
+    .community-support-bg {
+        width: 48.3%;
+    }
+    .communit-aside1 {
+        width: 65.75%;
+    }
+    
+    .communit-aside2 {
+        width: 32.75%;
+    }
+}
+
+.community-support-bg {
+    // width: 48.3%;
+    background: #e1e1e1;
+
+}
+
+
+
+.community-head-bg {
+    color: #000;
+}
+
+.testimonial-section {
+    color: #808080;
+    border: 2px solid #adadad;
+    padding: 120px 25px;
+    font-size: 16px;
+
+    .community-content {
+        font-size: $myFontSize13;
+    }
+}
+
+.apply-now-btn {
+    padding: 5px 30px;
+    font-size: 14px;
+    border: 2px solid #adadad;
+    border-radius: $borderRadius0;
+}
+
+.apply-now-btn:hover {
+    @include apply-now-btn-hover;
+}
